@@ -1,0 +1,16 @@
+db:
+  name: test_db_3.db
+  collection: test_collection_1
+  description: test_collection
+  dimension: 3072
+
+files:
+  template: template_2.txt
+  default_topics: topics.txt
+
+thresholds:
+  similarity: 0.95
+  alpha: 2
+
+batch:
+  size: 10
