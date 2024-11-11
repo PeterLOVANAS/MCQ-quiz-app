@@ -4,10 +4,10 @@
 A simple and interactive quiz application built with Python. This project includes a backend API for managing questions and a Streamlit frontend for user interaction.
 
 ![ui](https://raw.githubusercontent.com/PeterLOVANAS/MCQ-quiz-app/refs/heads/main/images/backend_4.png)
-
+*Figure 1: The main UI of search section the Quiz App.*
 
 ![ui2](https://raw.githubusercontent.com/PeterLOVANAS/MCQ-quiz-app/refs/heads/main/images/backend_3.png)
-
+*Figure 2: The main UI of quiz section the Quiz App. This screen happened after the users submit their answer.*
 
 
 ---
@@ -154,4 +154,4 @@ The frontend application, built with Streamlit, interacts with the backend to di
 ## Notes
 
 - Ensure the backend API is running before starting the Streamlit app.
-- Customize the `template.txt`, `topics.txt`, and `your_db.db` files for specific requirements, such as default questions, topics, and database initialization.
+- Customize the `template.txt`, `topics.txt`, and `your_db.db` files for specific requirements, such as default questions, topics, and database initialization (if wanted).
