@@ -1,0 +1,25 @@
+1. Variables and Data Types in Python
+2. Python Operators (Arithmetic, Logical, Comparison, Bitwise)
+3. Python Input and Output Functions
+4. Python Strings and String Methods
+5. List Data Structure and List Comprehension
+6. Tuples: Immutable Data Structures in Python
+7. Dictionaries: Key-Value Pairs
+8. Python Sets and their Operations
+9. Conditional Statements (if, elif, else)
+10. Loops in Python (for and while)
+11. Python Functions and Lambda Expressions
+12. Python Modules and Importing Libraries
+13. Exception Handling (try, except, finally)
+14. File Handling in Python (Reading, Writing, Appending)
+15. Python Classes and Object-Oriented Programming (OOP)
+16. Introduction to NumPy Arrays
+17. NumPy Array Indexing and Slicing
+18. Basic NumPy Array Operations (Addition, Multiplication, etc.)
+19. Reshaping and Transposing NumPy Arrays
+20. Introduction to Pandas DataFrames
+21. DataFrame Indexing and Slicing in Pandas
+22. Loading and Saving Data with Pandas (CSV, Excel, etc.)
+23. Basic Data Manipulation in Pandas (Adding/Removing Columns, Filtering)
+24. Handling Missing Data in Pandas
+25. Basic Aggregation and Grouping Operations in Pandas
