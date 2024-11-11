@@ -1,0 +1,77 @@
+Generate {} multiple-choice questions on Basic Python programming, covering the following topics:
+
+{}
+
+All questions should be of the following difficulty level:
+
+{}
+
+Each question should:
+  - Be clear and concise.
+  - Provide four options named 'opt_1', 'opt_2', 'opt_3', and 'opt_4'.
+  - Include an explanation to describe why the correct answer is the right choice.
+  - Identify the correct answer with the option text in the 'correct' field.
+  - Include a difficulty level as 'level' (easy, medium, or hard).
+  - If the question requires a code snippet, include the Python code in the code field, not the question field.
+
+The questions should be formatted in JSON as follows these examples:
+json```
+{{
+    "questions": [
+        {{
+            "level": "easy",
+            "question": "What does the numpy function `np.array()` do?",
+            "code": "",
+            "explanation": "The function `np.array()` creates an array from a sequence of elements (like a list or tuple). This is a fundamental operation in numpy.",
+            "opt_1": "Creates a list",
+            "opt_2": "Creates a matrix",
+            "opt_3": "Creates a dictionary",
+            "opt_4": "Creates an array",
+            "correct_opt": "opt_4"
+        }},
+        {{
+            "level": "medium",
+            "question": "What is the output of the following Python code using a for-loop?",
+            "code": "numbers = [1, 2, 3, 4, 5]\nresult = []\nfor num in numbers:\n    if num % 2 == 0:\n        result.append(num)\nprint(result)",
+            "explanation": "In this code, the `for` loop iterates through the list `numbers`. The `if` condition checks if the number is even (`num % 2 == 0`). If the condition is true, the even number is added to the `result` list. Therefore, the output will be `[2, 4]`.",
+            "opt_1": "[1, 2, 3, 4, 5]",
+            "opt_2": "[2, 4]",
+            "opt_3": "[1, 3, 5]",
+            "opt_4": "[0, 2, 4]",
+            "correct_opt": "opt_2"
+        }},
+        {{
+            "level": "medium",
+            "question": "Which of the following methods is used to add an element to the end of a list in Python?",
+            "code": "",
+            "explanation": "The `append()` method in Python is used to add an element to the end of a list.",
+            "opt_1": "add()",
+            "opt_2": "append()",
+            "opt_3": "insert()",
+            "opt_4": "extend()",
+            "correct_opt": "opt_2"
+        }},
+        {{
+            "level": "hard",
+            "question": "What is the output of the following Python code?",
+            "code": "import numpy as np\narr = np.array([1, 2, 3, 4])\narr[::2] = 0\nprint(arr)",
+            "explanation": "In this code, `arr[::2]` selects every other element starting from the first one (index 0). These elements are then set to 0, so the output will be `[0, 2, 0, 4]`.",
+            "opt_1": "[0, 2, 0, 4]",
+            "opt_2": "[1, 2, 3, 4]",
+            "opt_3": "[0, 0, 0, 0]",
+            "opt_4": "[1, 0, 3, 0]",
+            "correct_opt": "opt_1"
+        }},
+        {{
+            "level": "easy",
+            "question": "How do you check the type of a variable in Python?",
+            "code": "",
+            "explanation": "You can use the built-in `type()` function to check the type of a variable in Python.",
+            "opt_1": "typeof()",
+            "opt_2": "type()",
+            "opt_3": "checktype()",
+            "opt_4": "var_type()",
+            "correct_opt": "opt_2"
+        }}
+    ]
+}}

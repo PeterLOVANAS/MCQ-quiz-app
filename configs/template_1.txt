@@ -1,0 +1,31 @@
+Generate {} multiple-choice questions on Basic Python programming, covering the following topics:
+
+{}
+
+
+All questions should be in the following diffuculty level only:
+
+{}
+
+Each question should:
+- Be clear and concise.
+- Provide four options named 'opt_1', 'opt_2', 'opt_3', and 'opt_4'.
+- Identify the correct answer with the option text in the 'correct' field.
+- Include a difficulty level as 'level' (easy, medium, or hard).
+
+Please format the response in JSON as follows:
+json```
+{{
+    "questions": [
+        {{
+            "level": "easy",
+            "question": "What does the numpy function `np.array()` do?",
+            "opt_1": "Creates a list",
+            "opt_2": "Creates a matrix",
+            "opt_3": "Creates a dictionary",
+            "opt_4": "Creates an array",
+            "correct_opt": "opt_1"
+        }},
+        ...
+    ]
+}}
