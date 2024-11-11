@@ -1,0 +1,26 @@
+# Streamlit for frontend
+streamlit
+
+# Streamlit-tags for tag components
+streamlit-tags
+
+# FastAPI for backend API
+fastapi
+
+# Uvicorn for running FastAPI
+uvicorn
+
+# Requests for HTTP requests
+requests
+
+# PyMilvus for database operations, with model support
+pymilvus[model]
+
+# NumPy for numerical computations
+numpy
+
+# Python Dotenv for loading environment variables
+python-dotenv
+
+# PyYAML for YAML configuration files
+pyyaml
